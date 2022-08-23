@@ -1,0 +1,20 @@
+.slide-container{
+    padding: 10px 16px;
+}
+
+.slide-container .each-slide{
+    width: 100%;
+}
+
+.slide-container .each-slide .image{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* RESPONSIVE */
+
+@media(min-width: 1024px){
+    .slide-container{
+        padding: 50px 100px;
+    }
+}
